@@ -220,10 +220,9 @@ body{
     justify-content: space-between;
 }
 .main-items{
-    background-color: aqua;
     width: 400px;
     height: 400px;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 }
 .main-items-top{
     width: 100%;
@@ -235,17 +234,29 @@ body{
 }
 .main-items-bottom{
     display: flex;
-    margin-top: 50px;
+    margin-top: 40px;
     width: 100%;
     height: 40%;
 }
-.main-items-bottom img{
+.main-items-bottom-img{
+    
+}
+.main-items-bottom-img img{
+    margin-bottom: 100px;
     border-radius: 50%;
 
 }
-.main-items-bottom span{
-    margin-bottom: 50px;
+.main-items-bottom-text{
+    padding-right: 40px;
+}
+.main-items-bottom-text p{
+    margin: 0;
+    margin-bottom: 10px;
     color: #0f0f0f;
     font-weight: 500;
     text-overflow: ellipsis;
+}
+.main-items-bottom-text span{
+    font-size: 14px;
+    color: rgba(96,96,96,1)
 }
